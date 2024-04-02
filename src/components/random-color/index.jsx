@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 export default function RandomeColor () {
   const [typeOfColor, setTypeColor] = useState('hex')
   const [color, setColor] = useState('#000000')

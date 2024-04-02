@@ -77,9 +77,10 @@ button:focus-visible {
   border-color: #646cff;
 }
 
-.card:active{
+.card:active {
   border-color: #DDD;
 }
+
 .darkBg {
   max-width: fit-content;
   margin: 0 auto;
@@ -90,7 +91,15 @@ button:focus-visible {
   margin-top: 16px;
   flex-direction: column;
   border-radius: 8px;
- 
+
+}
+
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #1a1a1a
 }
 
 @media (prefers-color-scheme: light) {
